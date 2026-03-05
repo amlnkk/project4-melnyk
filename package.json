@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/
-project4-melnyk/",
+    "build": "vite build --base=/project4-melnyk/",
     "preview": "vite preview"
   },
   "devDependencies": {
