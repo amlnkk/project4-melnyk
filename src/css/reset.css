@@ -8,8 +8,13 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
+*{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 ul {
@@ -31,4 +36,8 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+body {
+  margin: 0;
 }
